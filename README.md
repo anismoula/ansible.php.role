@@ -1,4 +1,4 @@
-# Java 8 Ansible Role
+# PHP 5 Ansible Role
 
 Install PHP 5 for Debian/Ubuntu Linux Servers
 
