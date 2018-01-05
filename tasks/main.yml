@@ -1,0 +1,15 @@
+
+---
+# tasks file for ansible.php.role
+
+- name: Ensure PHP packages are installed.
+  apt:
+    name={{ php_packages }}
+    state=installed
+- name: Place php.ini file in place.
+  template: >
+    src=php.ini
+    dest={{ php_conf_path }}/php.ini
+    owner=root
+    group=root
+    mode=644

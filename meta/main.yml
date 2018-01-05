@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Moula ANIS
+  description: Ansible Role for PHP 5 for Debian/Ubuntu systems
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+    - name: Ubuntu
+      versions:
+        - precise64
+        - trusty
+  categories:
+    - development
+    - system
+
+dependencies: []
