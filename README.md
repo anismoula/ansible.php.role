@@ -1,4 +1,5 @@
 # PHP 5 Ansible Role
+[![Build Status](https://travis-ci.org/anismoula/ansible.php.role.svg?branch=master)](https://travis-ci.org/anismoula/ansible.php.role)
 
 Install PHP 5 for Debian/Ubuntu Linux Servers
 
